@@ -1,0 +1,34 @@
+h1{
+    background-color: greenyellow;
+    border: 2px solid black;
+
+}
+/* @media(width:400px){
+    h1{
+        background-color: aquamarine;
+        color: brown;
+    }
+}
+@media(min-width:200px){
+    h1{
+        background-color: teal;
+        color: brown;
+    }
+}
+@media(max-width:500px){
+    h1{
+        background-color: indigo;
+        color: brown;
+    }
+}
+@media(width:400px)and(width:600px){
+    h1{
+        background-color: aquamarine;
+        color: brown;
+    } */
+/* } */
+@media(orientation: landscape){
+    h1{
+        background-color: blueviolet;
+    }
+}
