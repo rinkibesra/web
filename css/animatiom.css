@@ -1,0 +1,29 @@
+#box{
+      background-color:wheat ;
+      
+        width:200px;
+         font-size: 40px;
+   
+     animation:backgroundcolor 2s ease-in 1s infinite normal;
+   
+}
+
+@keyframes backgroundcolor{
+    0%{
+        background-color:wheat ;
+        width: 20px;
+          font-size: 20px;
+        
+
+    }
+    50%{
+        background-color: aqua;
+        width:200px;
+         font-size: 40px;
+    }
+     100%{
+        background-color: rosybrown;
+        width:300px;
+         font-size: 50px;
+    }
+}
