@@ -1,0 +1,30 @@
+#outter{
+    height: 400px;
+    width: 600px;
+    background-color: yellow;
+    display:grid;
+   grid-template-columns:180px 180px 180px ;
+   grid-template-rows: 150px 150px 150px;
+    grid-gap: 10px;
+    /* justify-items: center;
+    align-items: center; */
+    place-items: center;
+   
+   
+}
+.item{
+    height: 50px;
+    width:100px;
+    background-color:green;
+    text-align: center;
+    border: 1px solid black;
+   
+}
+#one{
+     /* grid-column:1/span 2;
+     grid-row:1/span 3; */
+         /* justify-self:end;
+         align-self: start; */
+         place-self: end;
+
+}
