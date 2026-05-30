@@ -1,0 +1,12 @@
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+background-color: rgb(28, 182, 49);
+}
+.one{
+    background-color: rgb(215, 187, 29);
+}
+.two{
+    background-color: rgb(28, 111, 182);
+}

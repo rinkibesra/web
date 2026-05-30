@@ -24,12 +24,12 @@ h4 {
   color: #3c787e;
 }
 
-#pets {
+#pets{
   display: flex;
   justify-content: space-evenly;
 }
-@media (max-width: 375px) {
-  #pet {
+@media(max-width: 400px){
+  #pets{
     flex-wrap: wrap;
   }
 }
