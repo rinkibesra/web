@@ -26,7 +26,7 @@ body{
         overflow:auto;
         padding: 0 1.5rem 0 1.5rem;
 }
-.player{
+.music-player{
     background-color:#121212    ;
     position:fixed;
     bottom:0;
@@ -129,6 +129,7 @@ button{
     justify-content:space-between;
     align-items: center;
     padding: 1rem 0 1rem 0;
+    z-index: 10;
 }
 .sticky-nav-icon{
     margin-left: .075rem;
@@ -171,4 +172,50 @@ button{
 .info{
     opacity: 0.25;
     font-size: 0.75;
+}
+.footer{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.line{
+    width: 90%;
+    height: 30%;
+    border-top: 2px solid white;
+    opacity:0.4 ;
+
+
+}
+.music-player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.album{
+    width: 25%;
+}
+.player{
+    width: 50%;
+ 
+}
+.control{
+    width: 25%;
+}
+.player-icon{
+    height: 1rem;
+    margin-right: 2rem;
+    opacity: 0.7;
+   
+}
+.player-icon:hover{
+     opacity: 1;
+   
+}
+.player-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
 }
