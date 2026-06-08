@@ -1,4 +1,12 @@
 let a=12;
 let b=13;
 let sum=a+b;
-console.log(sum);
+let sub=a-b;
+let mul=a*b;
+let div=a/b;
+let mod=a%b;
+console.log(`The sum of a and b is ${sum}`);
+console.log(`The sub of a and b is ${sub}`);
+console.log(`The mul of a and b is ${mul}`);
+console.log(`The div of a and b is ${div}`);
+console.log(`The mod of a and b is ${mod}`);
