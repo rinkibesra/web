@@ -6,6 +6,8 @@ This repository contains my web development exercises, mini-projects, and practi
 - HTML
 - CSS
 - JavaScript
+- React
+  
 
 ## Goal
 To improve my web development skills by building projects and practicing regularly.
