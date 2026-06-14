@@ -40,4 +40,6 @@ console.log(`The value of num is ${num}`);
 console.log(`practice questions`);
 let naam="Rinki";
 console.log(`The length of naam is ${naam.length}`);
-console.log(`The index of 'i' in naam is ${naam[0]}`);
+console.log(`The first letter of naam is ${naam[0]}`);
+console.log(`The last letter of naam is ${naam[naam.length-1]}`);
+console.log(`The second letter of naam is ${naam[1]}`); 
