@@ -43,3 +43,4 @@ console.log(`The length of naam is ${naam.length}`);
 console.log(`The first letter of naam is ${naam[0]}`);
 console.log(`The last letter of naam is ${naam[naam.length-1]}`);
 console.log(`The second letter of naam is ${naam[1]}`); 
+console.log(`the third letter of naam is ${naam[2]}`);
