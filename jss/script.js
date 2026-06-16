@@ -44,3 +44,13 @@ console.log(`The first letter of naam is ${naam[0]}`);
 console.log(`The last letter of naam is ${naam[naam.length-1]}`);
 console.log(`The second letter of naam is ${naam[1]}`); 
 console.log(`the third letter of naam is ${naam[2]}`);
+let light=prompt("Enter the color of traffic light");
+if(light=="red"){
+    console.log("Stop");
+}   
+if(light=="yellow"){
+    console.log("Ready");
+}
+if(light=="green"){
+    console.log("Go");
+}
