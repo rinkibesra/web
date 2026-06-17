@@ -1,56 +1,76 @@
-let a=12;
-let b=13;
-let sum=a+b;
-let sub=a-b;
-let mul=a*b;
-let div=a/b;
-let mod=a%b;
-let power=a**b;
-console.log(`The sum of a and b is ${sum}`);
-console.log(`The sub of a and b is ${sub}`);
-console.log(`The mul of a and b is ${mul}`);
-console.log(`The div of a and b is ${div}`);
-console.log(`The mod of a and b is ${mod}`);
-console.log(`The power of a and b is ${power}`);
-console.log(`Average`);
-let hindi=80;
-let english=90;
-let math=95;
-let average=(hindi+english+math)/3;
-console.log(`The average of hindi, english and math is ${average}`);
-let arr=[1,2,3,4,5];
-console.log(`The array is ${arr}`);
-let length=arr.length;
-console.log(`The length of the array is ${length}`);
-let name=["John","Doe","Jane"];
-console.log(`The name array is ${name}`);
-let nameLength=name.length;
-console.log(`The length of the name array is ${nameLength}`);
-let fruits=["apple","banana","orange"];
-console.log(`The fruits array is ${fruits}`);
-let fruitsLength=fruits.length;
-console.log(`The length of the fruits array is ${fruitsLength}`);
-console.log(    `increment and decrement`);
-let num=5;
-console.log(`The value of num is ${num}`);
-let newNum=num++;
-console.log(`The value of num is ${num}`);
-newNum=++num;
-console.log(`The value of num is ${num}`);
-console.log(`practice questions`);
-let naam="Rinki";
-console.log(`The length of naam is ${naam.length}`);
-console.log(`The first letter of naam is ${naam[0]}`);
-console.log(`The last letter of naam is ${naam[naam.length-1]}`);
-console.log(`The second letter of naam is ${naam[1]}`); 
-console.log(`the third letter of naam is ${naam[2]}`);
-let light=prompt("Enter the color of traffic light");
-if(light=="red"){
-    console.log("Stop");
-}   
-if(light=="yellow"){
-    console.log("Ready");
+// let a=12;
+// let b=13;
+// let sum=a+b;
+// let sub=a-b;
+// let mul=a*b;
+// let div=a/b;
+// let mod=a%b;
+// let power=a**b;
+// console.log(`The sum of a and b is ${sum}`);
+// console.log(`The sub of a and b is ${sub}`);
+// console.log(`The mul of a and b is ${mul}`);
+// console.log(`The div of a and b is ${div}`);
+// console.log(`The mod of a and b is ${mod}`);
+// console.log(`The power of a and b is ${power}`);
+// console.log(`Average`);
+// let hindi=80;
+// let english=90;
+// let math=95;
+// let average=(hindi+english+math)/3;
+// console.log(`The average of hindi, english and math is ${average}`);
+// let arr=[1,2,3,4,5];
+// console.log(`The array is ${arr}`);
+// let length=arr.length;
+// console.log(`The length of the array is ${length}`);
+// let name=["John","Doe","Jane"];
+// console.log(`The name array is ${name}`);
+// let nameLength=name.length;
+// console.log(`The length of the name array is ${nameLength}`);
+// let fruits=["apple","banana","orange"];
+// console.log(`The fruits array is ${fruits}`);
+// let fruitsLength=fruits.length;
+// console.log(`The length of the fruits array is ${fruitsLength}`);
+// console.log(    `increment and decrement`);
+// let num=5;
+// console.log(`The value of num is ${num}`);
+// let newNum=num++;
+// console.log(`The value of num is ${num}`);
+// newNum=++num;
+// console.log(`The value of num is ${num}`);
+// console.log(`practice questions`);
+// let naam="Rinki";
+// console.log(`The length of naam is ${naam.length}`);
+// console.log(`The first letter of naam is ${naam[0]}`);
+// console.log(`The last letter of naam is ${naam[naam.length-1]}`);
+// console.log(`The second letter of naam is ${naam[1]}`); 
+// console.log(`the third letter of naam is ${naam[2]}`);
+// let light=prompt("Enter the color of traffic light");
+// if(light=="red"){
+//     console.log("Stop");
+// }   
+// if(light=="yellow"){
+//     console.log("Ready");
+// }
+// if(light=="green"){
+//     console.log("Go");
+// }
+// let f_name="rinki";
+// let l_name="besra";
+// let full_name=f_name +" "+ l_name;
+// console.log(full_name);
+let size=prompt("Enter the size ");
+if(size=="XL"){
+    console.log("Extra Large");
 }
-if(light=="green"){
-    console.log("Go");
+else if(size=="L"){
+    console.log("PRICE 250");
 }
+else if(size=="M"){
+    console.log("PRICE 200");
+}
+else if(size=="S"){
+    console.log("PRICE 150");
+}
+
+
+
