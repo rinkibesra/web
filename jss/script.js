@@ -71,6 +71,17 @@ else if(size=="M"){
 else if(size=="S"){
     console.log("PRICE 150");
 }
-
-
+let string=prompt("Enter the string");
+if((string[0]=='a'||string[0]=='A')&&(string.length>=3)){
+    console.log("string is a good string");
+}
+else{
+    console.log("string is not a good string");
+}
+let num=prompt("Enter the number");
+if(num%10==0){
+    console.log("number is divisible by 10");
+}else{
+    console.log("number is not divisible by 10");
+}
 
