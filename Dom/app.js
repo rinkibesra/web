@@ -19,3 +19,9 @@ console.dir(para.innerText);
 para.innerHTML="<b>I am peter parker</b>";
 let heading=document.querySelector("h1");
 heading.innerHTML=`<u> ${heading.innerText} </ul>`
+//getter setter
+let img=document.querySelector("img");
+img.getAttribute("id");
+img.setAttribute("src","creation_3.jpeg" );
+let class_img=document.querySelector("img");
+console.dir(class_img.classList);
