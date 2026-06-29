@@ -25,3 +25,5 @@ img.getAttribute("id");
 img.setAttribute("src","creation_3.jpeg" );
 let class_img=document.querySelector("img");
 console.dir(class_img.classList);
+let class_img=document.querySelector("img");
+console.dir(class_img.classList);
