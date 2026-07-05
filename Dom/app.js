@@ -19,3 +19,34 @@ console.dir(para.innerText);
 para.innerHTML="<b>I am peter parker</b>";
 let heading=document.querySelector("h1");
 heading.innerHTML=`<u> ${heading.innerText} </ul>`
+//getter setter
+let img=document.querySelector("img");
+img.getAttribute("id");
+// img.setAttribute("src","creation_3.jpeg" );
+//classList
+
+console.dir(heading.classList);
+heading.classList.add("green");
+heading.classList.add("underline");
+heading.classList.remove("green");
+heading.classList.toggle("green");
+//Navigation
+let h4=document.querySelector("h4");
+
+console.dir(h4.parentElement);
+console.dir(h4.children);
+let ul=document.querySelector("ul");
+
+console.dir(ul.children[0].nextElementSibling);
+console.dir(ul.children[1].nextElementSibling);
+img.previousElementSibling.style.backgroundColor="pink";
+let p=document.querySelector("p");
+let btn=document.createElement('button');
+btn.innerText="clickme";
+console.dir(p.insertAdjacentElement('beforebegin',btn));
+console.dir(box.insertAdjacentElement('afterend',btn));
+console.dir(box.insertAdjacentElement('beforeend',btn));
+console.dir(box.insertAdjacentElement('beforebegin',btn));
+
+
+
