@@ -13,3 +13,9 @@
     color: purple;
 
 }
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 2px solid black;
+}
