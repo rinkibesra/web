@@ -18,8 +18,9 @@ let password=document.querySelector("#password");
     console.dir(password.value);
 });
 
-    let p=document.querySelector("p");
+  
 let text=document.querySelector("#text");
+  let p=document.querySelector("p");
 
 text.addEventListener("input",function(e){
     console.dir(text.value);
